@@ -13,7 +13,8 @@ export default () => {
             <Navegation text="Example" destiny='/example' color='#9400d3' />
             <Navegation text="JSX" destiny='/jsx' color='crimson' />
             <Navegation text="Navegacao #01" destiny='/navegation' color='green' />
-            <Navegation text="Navegacao #02" destiny='/client/sp/321' color='green' />
+            <Navegation text="Navegacao #02" destiny='/client/sp/321' color='blue' />
+            <Navegation text="Componente com estado" destiny='/state' color='pink' />
         </div>
     )
 }
