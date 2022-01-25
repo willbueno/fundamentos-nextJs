@@ -1,6 +1,6 @@
 import Navegation from "../components/Navegation"
 
-export default props => {
+export default () => {
     return (
         <div style={{
             display: 'flex',
@@ -12,6 +12,7 @@ export default props => {
             <Navegation text="Stylish" destiny='/stylish' />
             <Navegation text="Example" destiny='/example' color='#9400d3' />
             <Navegation text="JSX" destiny='/jsx' color='crimson' />
+            <Navegation text="Navegacao #01" destiny='/navegation' color='green' />
         </div>
     )
 }

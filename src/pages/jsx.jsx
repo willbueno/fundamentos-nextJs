@@ -1,6 +1,6 @@
 import Layout from "../components/Layout";
 
-export default function Jsx() {
+export default () => {
     return (
         <Layout title='Entendendo o JSX'>
         <div>
