@@ -1,8 +1,11 @@
-export default function Init() {
+import Link from "next/link"
+
+export default props => {
     return (
         <div>
-            <h1>Fundamentos de Next.Js & React</h1>
-            <h2>Estudando o framework</h2>
+            <Link href='/stylish'>
+                Estilo
+            </Link>
         </div>
     )
 }
