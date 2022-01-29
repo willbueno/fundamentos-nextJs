@@ -1,6 +1,6 @@
 import Navegation from "../components/Navegation"
 
-export default () => {
+export default function Index() {
     return (
         <div style={{
             display: 'flex',
@@ -17,7 +17,7 @@ export default () => {
             <Navegation text="Componente com estado" destiny='/state' color='#a45b71' />
             <Navegation text="Integracao com API" destiny='/integration' color='#42a9a9' />
             <Navegation text="Conteudo estatico" destiny='/static' color='#fa054a' />
-            <Navegation text="Conteudo dinamico" destiny='/static' color='#fa054a' />
+            <Navegation text="Conteudo dinamico" destiny='/dynamic' color='#fa054a' />
         </div>
     )
 }

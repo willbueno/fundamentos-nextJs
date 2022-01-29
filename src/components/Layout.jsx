@@ -1,7 +1,7 @@
 import styles from '../styles/Layout.module.css'
 import Link from "next/link"
 
-export default props => {
+export default function Layout(props) {
     return (
         <div className={styles.layout}>
             <div className={styles.header}>

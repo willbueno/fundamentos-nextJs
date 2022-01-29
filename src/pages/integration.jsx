@@ -1,7 +1,7 @@
 import { useState } from "react"
 import Layout from "../components/Layout"
 
-export default () => {
+export default function Integration() {
     const [code, setCode] = useState(1)
     const [client, setClient] = useState({})
 

@@ -1,7 +1,7 @@
 import styles from '../styles/Stylish.module.css'
 import Layout from '../components/Layout'
 
-export default () => {
+export default function Stylish() {
     return (
         <Layout title="Exemplo de CSS modularizado">
             <div className={styles.roxo}>

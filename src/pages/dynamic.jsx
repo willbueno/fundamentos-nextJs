@@ -1,6 +1,6 @@
 import Layout from "../components/Layout"
 
-export function getStaticProps() {
+export function getServerSideProps() {
     return {
         props: {
             number: Math.random()
@@ -8,9 +8,9 @@ export function getStaticProps() {
 }
 }
 
-export default function Static(props) {
+export default function Dynamic(props) {
     return (
-        <Layout title="Conteudo estatico">
+        <Layout title="Conteudo dinamico do lado do servidor">
             {props.number}
         </Layout>
     )

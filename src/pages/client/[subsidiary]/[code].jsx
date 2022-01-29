@@ -1,7 +1,7 @@
 import Layout from "../../../components/Layout"
 import { useRouter } from "next/router"
 
-export default () => {
+export default function Code() {
     const router = useRouter()
 
     return (

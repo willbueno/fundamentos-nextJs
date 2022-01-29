@@ -1,7 +1,7 @@
 import { useState } from "react"
 import Layout from "../components/Layout"
 
-export default () => {
+export default function State() {
     const [number, setNumber] = useState(0)
 
     function inc() {
