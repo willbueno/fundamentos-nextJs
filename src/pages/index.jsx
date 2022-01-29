@@ -14,8 +14,10 @@ export default () => {
             <Navegation text="JSX" destiny='/jsx' color='crimson' />
             <Navegation text="Navegacao #01" destiny='/navegation' color='green' />
             <Navegation text="Navegacao #02" destiny='/client/sp/321' color='blue' />
-            <Navegation text="Componente com estado" destiny='/state' color='pink' />
-            <Navegation text="Integracao" destiny='/integration' color='yellow' />
+            <Navegation text="Componente com estado" destiny='/state' color='#a45b71' />
+            <Navegation text="Integracao com API" destiny='/integration' color='#42a9a9' />
+            <Navegation text="Conteudo estatico" destiny='/static' color='#fa054a' />
+            <Navegation text="Conteudo dinamico" destiny='/static' color='#fa054a' />
         </div>
     )
 }
